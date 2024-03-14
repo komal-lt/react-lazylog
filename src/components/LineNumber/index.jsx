@@ -36,7 +36,7 @@ export default class LineNumber extends Component {
     const { highlight, onClick, number, style } = this.props;
 
     return (
-      <a
+      <span
         id={number}
         onClick={onClick}
         className={highlight ? lineNumberHighlight : lineNumber}
